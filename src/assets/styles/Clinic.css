@@ -1,0 +1,24 @@
+.our-clinic {
+  padding: 16px;
+  h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #414141;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 76px;
+    letter-spacing: -0.5%;
+    color: #121212;
+  }
+
+  p {
+    font-weight: 400;
+    color: #414141;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
