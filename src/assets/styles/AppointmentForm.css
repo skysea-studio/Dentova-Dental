@@ -1,0 +1,60 @@
+.book-appointment {
+  padding: 16px;
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 76px;
+    color: #121212;
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #414141;
+  }
+}
+
+.appointment-form {
+  border: 1px solid #dfe0e0;
+  background: #fefefe;
+  padding: 20px;
+  border-radius: 16px;
+  margin-top: 32px;
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    h6 {
+      font-weight: 500;
+      font-size: 14px;
+      margin-bottom: 8px;
+      color: #226bd7;
+      line-height: 22px;
+    }
+  }
+  input,
+  select,
+  textarea {
+    padding-inline: 14px;
+    padding-block: 10px;
+    border: 1px solid #dfe0e0;
+    box-shadow: 0px 1px 2px 0px #0a0d120d;
+    border-radius: 8px;
+    font-family: Satoshi;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414141;
+  }
+  button {
+    background: #226bd7;
+    width: 100%;
+    margin: auto;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fefefe;
+    padding-block: 16px;
+  }
+}

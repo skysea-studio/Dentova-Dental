@@ -22,3 +22,15 @@
     line-height: 30px;
   }
 }
+
+.our-clinic-img {
+  position: relative;
+  margin-top: 24px;
+  & img:nth-child(2) {
+    position: absolute;
+    width: 120px;
+    bottom: -8px;
+    right: 0;
+    object-fit: contain;
+  }
+}

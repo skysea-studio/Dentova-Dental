@@ -1,0 +1,42 @@
+[
+  {
+    "rating": 5.0,
+    "title": "Extremely Satisfied With the Service!",
+    "review": "This was the most comfortable dental treatment I've ever had. The doctor was very attentive and explained every step clearly.",
+    "customer": {
+      "name": "Emily Johnson",
+      "time_ago": "2 months ago",
+      "src": "/assets/emilly-johnson.svg"
+    }
+  },
+  {
+    "rating": 5.0,
+    "title": "Perfect Result, Highly Satisfied!",
+    "review": "I came in for a smile design, and the results exceeded my expectations. The team is very skilled and professional. I'm extremely happy with the outcome!",
+    "customer": {
+      "name": "Daniel Roberts",
+      "time_ago": "3 months ago",
+      "src": "/assets/daniel-roberts.svg"
+    }
+  },
+  {
+    "rating": 5.0,
+    "title": "Very Happy With the Treatment!",
+    "review": "My filling treatment was quick and painless. I had a short waiting time, but the overall quality of service was excellent. I definitely recommend the clinic.",
+    "customer": {
+      "name": "James Anderson",
+      "time_ago": "4 months ago",
+      "src": "/assets/james-anderson.svg"
+    }
+  },
+  {
+    "rating": 5.0,
+    "title": "Great Progress, Very Satisfied!",
+    "review": "I'm currently undergoing orthodontic treatment. My doctor is patient and informative, making the whole process smooth. I feel safe and supported.",
+    "customer": {
+      "name": "Olivia Carter",
+      "time_ago": "5 months ago",
+      "src": "/assets/olivia-carter.svg"
+    }
+  }
+]
