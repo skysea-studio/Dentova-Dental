@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './App.css'
 import Header from './components/Header'
 import Banner from './components/Banner'
 import About from './components/About'
@@ -27,8 +26,10 @@ function App() {
         <Comments />
         <Services />
         <ServiceSlider />
-        <AppointmentForm />
-        <GoogleMap />
+        <div className='form-map'>
+          <AppointmentForm />
+          <GoogleMap />
+        </div>
         <Footer />
       </div>
     </>

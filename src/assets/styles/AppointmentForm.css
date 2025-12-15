@@ -58,3 +58,23 @@
     padding-block: 16px;
   }
 }
+
+@media(width >= 1440px) {
+  .book-appointment h2 {
+    color: rgba(18, 18, 18, 1);
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 54px;
+    line-height: 64px;
+    letter-spacing: -0.5%;
+    margin-bottom: 20px;
+  }
+  .book-appointment p {
+    color: rgba(18, 18, 18, 1);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+  }
+}

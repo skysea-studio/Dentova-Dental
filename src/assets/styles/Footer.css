@@ -39,9 +39,13 @@
   margin-bottom: 6px;
 }
 
+.footer-col ul li a:hover {
+  color: rgb(159, 185, 223);
+}
+
 .footer-icons {
   display: flex;
-  margin-top: 20px;
+  margin-top: 21px;
   gap: 6px;
   img {
     width: 26px;
@@ -57,6 +61,27 @@
   padding: inline 40px;;
 }
 
+@media (width >=1440px) {
+  .footer-container {
+    padding-inline: 60px;
+  }
+
+  .footer-col p {
+    margin-block: 32px 42px;
+  }
+
+  .footer-col ul li {
+    margin-block: 16px;
+  }
+  .footer-icons {
+    margin-top: 1px;
+    gap: 24px;
+  }
+  .footer-bottom {
+    padding-inline: 60px;
+    margin-bottom: 64px;
+  }
+}
 
 
 

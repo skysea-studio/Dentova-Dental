@@ -55,7 +55,7 @@ export function AppointmentForm() {
             <PhoneInput
               international
               countryCallingCodeEditable={false}
-              defaultCountry="TR"
+              defaultCountry="US"
               value={phone}
               onChange={(value) => {
                 setPhone(value);

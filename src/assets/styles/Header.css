@@ -6,6 +6,7 @@
   padding: 16px;
 }
 
+
 .top-bar-items {
   display: flex;
   gap: 24px;
@@ -32,7 +33,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: #fcfcfc;
+  background:#226bd7;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -52,10 +53,10 @@
 }
 
 .mobile-menu a {
-  color: #226bd7;
+  color:#fcfcfc ;
   text-decoration: none;
   padding-bottom: 5px;
-  border-bottom: 1px solid #226bd7;
+  border-bottom: 1px solid #dde0e6;
   font-size: 18px;
 }
 

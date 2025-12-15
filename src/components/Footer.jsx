@@ -26,7 +26,7 @@ return (
     </div>
 
     <div className="footer-col">
-      <h2>Dentova Dental</h2>
+      <h3>Dentova Dental</h3>
         <ul>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Our Clinic</a></li>
@@ -39,9 +39,9 @@ return (
     <div className="footer-col">
       <h3>Contact Info</h3>
       <ul>
-        <li>P: +1 (212) 555-7890</li>
-        <li>E: info@dentova.com</li>
-        <li>A: 456 Bright Smile Ave...</li>
+        <li><a href="tel:+12345678901">P: +1 (212) 555-7890</a></li>
+        <li><a href="mailto:info@gmail.com">E: info@dentova.com</a></li>
+        <li><a href="https://maps.app.goo.gl/5vAJ3My7t3ntu9w18">A: 456 Bright Smile Ave, NY 10001, USA</a></li>
       </ul>
     </div>
 

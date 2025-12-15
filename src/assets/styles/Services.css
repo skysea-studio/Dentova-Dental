@@ -20,7 +20,10 @@
 
 .services-grid {
   display: grid;
-  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 64px;
 }
 
 .services-card {

@@ -25,7 +25,7 @@ export default function Header() {
             <img src={emailIcon} alt="Email icon" />
             <h4 className='header-hidden'>info@dentova.com</h4>
           </a>
-            <a>
+            <a href='https://maps.app.goo.gl/5vAJ3My7t3ntu9w18'>
             <img src={locationIcon} alt="Location icon" />
             <h4 className='header-hidden'>456 Bright Smile Ave, NY 10001, USA</h4>
           </a>
@@ -75,10 +75,6 @@ export default function Header() {
         </div>
 
       </nav>
-
-      
- 
-
     </header>
   )
 }

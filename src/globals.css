@@ -92,10 +92,29 @@ button {
   cursor: pointer;
 }
 
-/* .container {
-  padding-inline: 16px;
-} */
+hr {
+  margin-block: 42px;
+  opacity: 0.5;
+}
 
-/* @media (width > 768px) {
-  
-} */
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+@media(width >= 1440px) {
+  .form-map {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    padding-inline: 60px;
+    margin-top: 124px;
+  }
+  .map {
+    height: 921px;
+  }
+
+}
+
+
+
