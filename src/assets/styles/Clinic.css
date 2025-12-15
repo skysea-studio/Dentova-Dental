@@ -10,7 +10,6 @@
   h2 {
     font-weight: 700;
     font-size: 32px;
-    line-height: 76px;
     letter-spacing: -0.5%;
     color: #121212;
   }
@@ -26,11 +25,57 @@
 .our-clinic-img {
   position: relative;
   margin-top: 24px;
+  border-radius: 32px;
   & img:nth-child(2) {
     position: absolute;
     width: 120px;
     bottom: -8px;
     right: 0;
     object-fit: contain;
+    
+  }
+}
+
+@media(width >=1440px) {
+  .our-clinic {
+    display: flex;
+    gap: 86px;
+    padding-inline: 60px;
+    margin-bottom: 97px;
+    margin-top: 100px;
+  }
+  .clinic-info {
+    flex: 1;
+    margin-top: 40px;
+    h2 {
+      color: rgba(18, 18, 18, 1);
+      font-weight: 700;
+      font-style: Bold;
+      font-size: 64px;
+      line-height: 76px;
+      letter-spacing: -0.5%;
+      box-shadow: 0px 4px 4px 0px rgba(254, 254, 254, 0.25);
+      margin-bottom: 20px;
+    }
+    p {
+      color: rgba(65, 65, 65, 1);
+      font-weight: 400;
+      font-style: Regular;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      box-shadow: 0px 4px 4px 0px rgba(254, 254, 254, 0.25);
+    }
+  }
+  .our-clinic-img {
+    width: 642px;
+    height: 428px;
+    border-radius: 32px;
+     & img:nth-child(2) {
+      width: 283px;
+      height: 188px;
+      border-radius: 32px;
+      top: 317px;
+     }
   }
 }

@@ -16,7 +16,7 @@ return (
         <h2>Dentova Dental</h2>
       </div>
 
-      <p>We bring together modern treatments...</p>
+      <p>We bring together modern treatments, a comfortable clinic experience, and skilled dentists to create healthy and beautiful smiles.</p>
       <div className="footer-icons">
         <img src={footerLinkedinLogo} alt="footer Linkedin icon" />
         <img src={footerYoutubeLogo} alt="footer Youtube icon" />
