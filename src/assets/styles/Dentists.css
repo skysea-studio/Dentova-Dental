@@ -41,3 +41,43 @@
 .dentist-card-info {
   margin-block: 20px;
 }
+
+@media (width >= 1440px) {
+  .dentists {
+    padding-inline: 60px;
+  }
+  .dentists h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 76px;
+    letter-spacing: -0.5%;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .dentist-cards {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dentist-card-info h3 {
+    color:rgba(65, 65, 65, 1);
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+  .dentist-card-info h6 {
+    color: rgba(65, 65, 65, 1);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
