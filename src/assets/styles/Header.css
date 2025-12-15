@@ -8,13 +8,22 @@
 
 .top-bar-items {
   display: flex;
-  gap: 18px;
+  gap: 24px;
 }
+
 
 .header {
   position: relative;
 }
-
+.header-hidden {
+  display: none;
+}
+.header-icons {
+  display: none;
+}
+.desktop-menu {
+  display: none;
+}
 .menu-toggle {
   display: none;
 }
@@ -64,3 +73,87 @@
 .mobile-menu-logo-section {
   display: flex;
 }
+
+
+@media (width >= 1440px) {
+
+  .top-bar {
+    padding-inline: 60px;
+  }
+
+  .header-hidden {
+    display: block;
+  }
+
+  .top-bar-items a {
+    display: flex;
+    gap: 4px;
+    color: rgba(254, 254, 254, 1);
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .desktop-menu {
+    padding-inline: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    h5 {
+      color: rgba(34, 107, 215, 1);
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0%;
+
+    }
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 32px;
+  }
+  .nav-menu a {
+    color: rgba(18, 18, 18, 1);
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+  }
+  .nav-menu a:hover {
+    color: rgb(87, 81, 81);
+  }
+
+  .nav-button {
+    background-color: rgba(34, 107, 215, 1);
+    color: white;
+    padding: 16px 24px;
+    width: 184;
+    border-radius: 12px;
+  }
+  .nav-button:hover {
+     background-color: rgb(29, 92, 187);
+  }
+
+
+}
+
+
+
+
