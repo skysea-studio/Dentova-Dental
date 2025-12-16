@@ -28,7 +28,7 @@ export default function Comments() {
 
 
   return (
-    <section className="comments">
+    <section id="comments" className="comments">
       <div className="comment-section-header">
         <h4>Testimonials</h4>
         <h2> What Patients Are Saying</h2>

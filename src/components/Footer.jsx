@@ -13,26 +13,26 @@ return (
     <div className="footer-col brand">
       <div className='flex'>
         <img src={footerDentalLogo} alt="footer dental logo" />
-        <h2>Dentova Dental</h2>
+       <a href="#header"><h2>Dentova Dental</h2></a>
       </div>
 
       <p>We bring together modern treatments, a comfortable clinic experience, and skilled dentists to create healthy and beautiful smiles.</p>
       <div className="footer-icons">
-        <img src={footerLinkedinLogo} alt="footer Linkedin icon" />
-        <img src={footerYoutubeLogo} alt="footer Youtube icon" />
-        <img src={footerFacebookLogo} alt="footer Facebook icon" />
-        <img src={footerTwitterLogo} alt="footer Twitter icon" />
+        <a href="https://www.linkedin.com"><img src={footerLinkedinLogo} alt="footer Linkedin icon" /></a>
+        <a href="https://www.youtube.com"><img src={footerYoutubeLogo} alt="footer Youtube icon" /></a>
+        <a href="https://www.facebook.com"><img src={footerFacebookLogo} alt="footer Facebook icon" /></a>
+        <a href="https://twitter.com"><img src={footerTwitterLogo} alt="footer Twitter icon" /></a>
       </div>
     </div>
 
     <div className="footer-col">
       <h3>Dentova Dental</h3>
-        <ul>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Our Clinic</a></li>
-        <li><a href="#">Dentists</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Testimonials</a></li>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#clinic">Our Clinic</a></li>
+        <li><a href="#dentists">Dentists</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#comments">Testimonials</a></li>
       </ul>
     </div>
 

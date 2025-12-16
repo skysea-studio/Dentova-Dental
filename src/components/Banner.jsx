@@ -21,7 +21,7 @@ export default function Banner() {
           </div>
         </div>
         <div className='banner-img'>
-          <img src={theExaminee} alt="" />
+          <img src={theExaminee} alt="Banner Example Image" />
 
         </div>
 

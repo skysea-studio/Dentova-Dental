@@ -7,7 +7,7 @@ import OrhodonticBraces from "../assets/images/orthodontic-braces.png"
 
 export default function Services() {
   return (
-    <section className="our-services">
+    <section id="services" className="our-services">
       <div className="our-services-title">
         <h4>Our Services</h4>
         <h2>Tailored Solutions for Your Dental Health</h2>

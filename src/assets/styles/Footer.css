@@ -11,6 +11,9 @@
     width: 51px;
     height: 53px;
   }
+  a {
+    color: white;
+  }
 }
 
 .footer-container {
@@ -37,6 +40,7 @@
 .footer-col ul li a {
   color: rgba(186, 209, 243, 1);
   margin-bottom: 6px;
+  margin-top: 100px;
 }
 
 .footer-col ul li a:hover {

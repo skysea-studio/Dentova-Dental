@@ -3,7 +3,7 @@ import DentalTools from '../assets/images/dental-tools-equipment.jpg'
 
 export default function Clinic() {
   return (
-    <section className="our-clinic">
+    <section id='clinic' className="our-clinic">
       <div className='clinic-info'>
         <h4>Our Clinic</h4>
         <h2>Where Expertise Meets Care </h2>

@@ -4,7 +4,7 @@ import AdamReynolds from "../assets/images/adam-reynolds.jpg"
 
 export default function Dentists() {
   return (
-    <section className="dentists">
+    <section id="dentists" className="dentists">
 
       <h4>Dentists</h4>
       <h2>Our Expert Dental Team</h2>

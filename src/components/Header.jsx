@@ -11,7 +11,7 @@ import headerTwitterLogo from '../assets/icons/footer-twitter.svg'
 
 export default function Header() {
   return (
-    <header className="header">
+    <header id='header' className="header">
 
       <input type="checkbox" id="menuToggle" className="menu-toggle" />
 
@@ -32,12 +32,11 @@ export default function Header() {
         </div>
 
         <div className="header-icons">
-        <img src={headerLinkedinLogo} alt="Header Linkedin icon" />
-        <img src={headerYoutubeLogo} alt="Header Youtube icon" />
-        <img src={headerFacebookLogo} alt="Header Facebook icon" />
-        <img src={headerTwitterLogo} alt="Header Twitter icon" />
+          <a href="https://www.linkedin.com"><img src={headerLinkedinLogo} alt="Header Linkedin icon" /></a>
+          <a href="https://www.youtube.com"><img src={headerYoutubeLogo} alt="Header Youtube icon" /></a>
+          <a href="https://www.facebook.com"><img src={headerFacebookLogo} alt="Header Facebook icon" /></a>
+          <a href="https://twitter.com"><img src={headerTwitterLogo} alt="Header Twitter icon" /></a>
         </div>
-
 
         <label htmlFor="menuToggle" className="burger">
           <img src={burgerMenuIcon} alt="Hamburger menu icon" width={30} />
@@ -46,28 +45,28 @@ export default function Header() {
 
       <nav className="mobile-menu">
         <div className='mobile-menu-logo-section'>
-          <img src="./assets/logo.svg" alt="" width={35} />
-          <h2>Dentova Dental</h2>
+          <img src="./assets/logo.svg" alt="Header logo" width={35} />
+          <a href=""><h2>Dentova Dental</h2></a>
         </div>
-        <a href="#">About Us</a>
-        <a href="#">Dentists</a>
-        <a href="#">Our Clinic</a>
-        <a href="#">Our Services</a>
-        <a href="#">Testimonials</a>
+        <a href="#about">About Us</a>
+        <a href="#dentists">Dentists</a>
+        <a href="#clinic">Our Clinic</a>
+        <a href="#services">Our Services</a>
+        <a href="#comments">Testimonials</a>
       </nav>
 
       <nav className='desktop-menu'>
         <div className='flex'>
           <img src={headerLogo} alt="Header logo Desktop" width={21}/>
-          <h5>Dentova Dental</h5>
+          <a href=""><h5>Dentova Dental</h5></a>
         </div>
 
         <div className='nav-menu'>
-          <a href="#">About Us</a>
-          <a href="#">Dentists</a>
-          <a href="#">Our Clinic</a>
-          <a href="#">Our Services</a>
-          <a href="#">Testimonials</a>
+          <a href="#about">About Us</a>
+          <a href="#dentists">Dentists</a>
+          <a href="#clinic">Our Clinic</a>
+          <a href="#services">Our Services</a>
+          <a href="#comments">Testimonials</a>
         </div>
 
         <div>

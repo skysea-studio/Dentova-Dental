@@ -116,4 +116,15 @@
       text-align: center;
       margin-bottom: 24px;
   }
+
+  /* Slider Desktop */
+  .slider {
+    padding: 40px 0;
+  }
+
+  .slider-item h2 {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+  }
 }

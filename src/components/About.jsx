@@ -2,7 +2,7 @@ import patientCareImg from '../assets/images/patient-care.png'
 
 export default function About() {
   return (
-    <section className="about-us">
+    <section id='about' className="about-us">
       <div className='left-section'>
         <h4>About us</h4>
         <h2>Meet Dentova</h2>
