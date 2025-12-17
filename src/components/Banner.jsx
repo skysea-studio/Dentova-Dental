@@ -13,7 +13,7 @@ export default function Banner() {
 
           <div className='banner-btn-group'>
             <button>Our Services</button>
-            <div>
+            <div className='asd'>
               <img src={playIcon} alt="Play icon" />
               <a href="#" role="button">Watch Our Clinic</a>
             </div>
@@ -21,7 +21,7 @@ export default function Banner() {
           </div>
         </div>
         <div className='banner-img'>
-          <img src={theExaminee} alt="Banner Example Image" />
+          <img className='banner-image' src={theExaminee} alt="Banner Example Image" />
 
         </div>
 

@@ -124,6 +124,10 @@
     margin-top: 40px;
   }
 
+  .learn-more-btn:hover {
+     background: rgb(239, 239, 240);
+  }
+
  
 
 

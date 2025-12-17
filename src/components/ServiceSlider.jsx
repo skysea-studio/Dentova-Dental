@@ -1,4 +1,3 @@
-// ServiceSlider.jsx (Örnek Yapı)
 
 import { TeethIcon } from "./TeethIcon";
 

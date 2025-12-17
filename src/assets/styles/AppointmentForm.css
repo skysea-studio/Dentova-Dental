@@ -77,4 +77,8 @@
     line-height: 30px;
     letter-spacing: 0%;
   }
+
+  .appointment-form button:hover {
+     background-color: rgb(29, 92, 187);
+  }
 }

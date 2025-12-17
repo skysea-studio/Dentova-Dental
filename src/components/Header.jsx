@@ -7,6 +7,7 @@ import headerLinkedinLogo from '../assets/icons/footer-linkedin.svg'
 import headerYoutubeLogo from '../assets/icons/footer-youtube.svg'
 import headerFacebookLogo from '../assets/icons/footer-facebook.svg'
 import headerTwitterLogo from '../assets/icons/footer-twitter.svg'
+import menuTeeth from '../assets/icons/header-teeth.svg'
 
 
 export default function Header() {
@@ -45,7 +46,7 @@ export default function Header() {
 
       <nav className="mobile-menu">
         <div className='mobile-menu-logo-section'>
-          <img src="./assets/logo.svg" alt="Header logo" width={35} />
+          <img className='mobile-logo' src={menuTeeth} alt="Header logo" width={20}/>
           <a href=""><h2>Dentova Dental</h2></a>
         </div>
         <a href="#about">About Us</a>
