@@ -21,10 +21,15 @@
     font-size: 18px;
     line-height: 30px;
   }
+
+  img {
+    margin: auto;
+  }
 }
 
 .stats-summary {
   display: flex;
+  flex-direction: column;
   gap: 16px;
   margin-top: 16px;
 }
@@ -78,7 +83,7 @@
 
   .left-section {
     flex: 1;
-     h2 {  
+    h2 {
       color: rgba(18, 18, 18, 1);
       font-weight: 700;
       font-style: Bold;
@@ -100,22 +105,23 @@
 
   .stats-summary {
     gap: 16px;
+    flex-direction: row;
   }
 
   .stat-item {
     h3 {
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: 0%;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0%;
     }
     h6 {
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0%;
+      font-weight: 500;
+      font-style: Medium;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0%;
     }
   }
 
@@ -125,10 +131,6 @@
   }
 
   .learn-more-btn:hover {
-     background: rgb(239, 239, 240);
+    background: rgb(239, 239, 240);
   }
-
- 
-
-
 }

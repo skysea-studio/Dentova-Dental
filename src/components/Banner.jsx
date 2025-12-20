@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <section className="banner">
       <div className="banner-content">
-        <div className = "banner-info">
+        <div className="banner-info">
           <div>
             <h1>Your Smile Deserves the Best</h1>
             <p>At Dentova Dental Clinic, our expert team and modern technology ensure healthy, safe, and beautiful smiles.</p>

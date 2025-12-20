@@ -80,3 +80,12 @@
   padding-right: 2px;
 }
 
+@media (width >= 1440px) {
+  .comments-grid {
+    grid-template-columns: auto 1fr auto;
+  }
+  .cards-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
