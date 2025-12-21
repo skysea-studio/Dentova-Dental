@@ -54,25 +54,26 @@
     justify-content: space-between;
     width: 100%;
     height: 600px;
+    perspective: 1000px;
+    overflow: hidden;
   }
 
   .banner-img {
     position: relative;
     object-fit: contain;
     overflow: hidden;
+    transform: translateZ(132px);
+
     img {
       position: absolute;
       margin: 0;
     }
   }
 
-  .banner-image {
-    height: 720px;
-  }
-
   .banner-info {
     margin-left: 88px;
     margin-top: 108px;
+    min-width: 600px;
   }
 
   .banner-info h1 {

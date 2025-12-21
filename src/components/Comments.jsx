@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import userIcon from "../assets/icons/user.svg"
 
 export default function Comments() {
   const [comments, setComments] = useState([])
@@ -54,6 +55,7 @@ export default function Comments() {
   }
 
 
+
   const visibleComments = []
   if (comments.length > 0) {
     for (let i = 0; i < itemsPerPage; i++) {
@@ -83,7 +85,13 @@ export default function Comments() {
               <h2>{comment.title}</h2>
               <p>{comment.review}</p>
               <div className="commenter-info">
-                <img src={comment.customer.src || ""} alt="user avatar" />
+                <img
+                  src={comment?.customer?.src || userIcon}
+                  alt="user avatar"
+
+                />
+
+
                 <div>
                   <h5>{comment.customer.name}</h5>
                   <p>{comment.customer.time_ago}</p>

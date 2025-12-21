@@ -5,8 +5,7 @@
     "review": "This was the most comfortable dental treatment I've ever had. The doctor was very attentive and explained every step clearly.",
     "customer": {
       "name": "Emily Johnson",
-      "time_ago": "2 months ago",
-      "src": "/assets/emily-johnson.svg"
+      "time_ago": "2 months ago"
     }
   },
   {
@@ -45,8 +44,7 @@
     "review": "From the reception to the dentist chair, everyone was so welcoming. The clinic is spotless and uses modern technology. Highly recommended!",
     "customer": {
       "name": "Sophia Martinez",
-      "time_ago": "1 month ago",
-      "src": "/assets/sophia-martinez.svg"
+      "time_ago": "1 month ago"
     }
   },
   {
@@ -55,8 +53,7 @@
     "review": "I went in for a routine check-up and cleaning. It was very efficient, and the hygienist gave me great tips for daily care. Very professional service.",
     "customer": {
       "name": "William Turner",
-      "time_ago": "3 weeks ago",
-      "src": "/assets/william-turner.svg"
+      "time_ago": "3 weeks ago"
     }
   },
   {
@@ -65,8 +62,7 @@
     "review": "I was terrified of getting a root canal, but the doctor made it completely painless. I couldn't believe it was over so quickly. Thank you so much!",
     "customer": {
       "name": "Isabella Garcia",
-      "time_ago": "6 months ago",
-      "src": "/assets/isabella-garcia.svg"
+      "time_ago": "6 months ago"
     }
   },
   {
@@ -75,8 +71,7 @@
     "review": "I brought my 7-year-old son here, and they were amazing with him. He didn't cry once! It's definitely the best family dentist in town.",
     "customer": {
       "name": "Lucas Miller",
-      "time_ago": "2 months ago",
-      "src": "/assets/lucas-miller.svg"
+      "time_ago": "2 months ago"
     }
   },
   {
@@ -85,8 +80,7 @@
     "review": "The whitening procedure was fantastic. My teeth look naturally white and bright. I can't stop smiling now!",
     "customer": {
       "name": "Ava Wilson",
-      "time_ago": "1 week ago",
-      "src": "/assets/ava-wilson.svg"
+      "time_ago": "1 week ago"
     }
   },
   {
@@ -95,8 +89,7 @@
     "review": "The treatment was good, although the waiting room was a bit crowded. However, the doctor's expertise made up for the wait.",
     "customer": {
       "name": "Ethan Moore",
-      "time_ago": "4 months ago",
-      "src": "/assets/ethan-moore.svg"
+      "time_ago": "4 months ago"
     }
   },
   {
@@ -105,8 +98,7 @@
     "review": "I had a severe toothache on a Sunday, and they managed to fit me in for an emergency appointment. I am so grateful for their quick response.",
     "customer": {
       "name": "Mia Taylor",
-      "time_ago": "5 days ago",
-      "src": "/assets/mia-taylor.svg"
+      "time_ago": "5 days ago"
     }
   },
   {
@@ -115,8 +107,7 @@
     "review": "I appreciate how the doctor used screens to show me exactly what was happening with my teeth. I felt very involved in the decision-making process.",
     "customer": {
       "name": "Noah Jackson",
-      "time_ago": "2 months ago",
-      "src": "/assets/noah-jackson.svg"
+      "time_ago": "2 months ago"
     }
   }
 ]
