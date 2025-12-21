@@ -1,7 +1,14 @@
 
 import { TeethIcon } from "./TeethIcon";
+import { animateServiceSlider } from "../assets/lib/Animation";
+import React, { useEffect } from 'react';
 
 export default function ServiceSlider() {
+
+  useEffect(() => {
+    animateServiceSlider();
+  }, []);
+
   const serviceItem = (
     <>
       <div className="slider-item">
@@ -21,6 +28,7 @@ export default function ServiceSlider() {
   );
 
   return (
+
     <section className="slider">
       <div className="slider-inner">
         {serviceItem}

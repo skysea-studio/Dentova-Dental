@@ -1,6 +1,14 @@
 import patientCareImg from '../assets/images/patient-care.png'
+import { animateAboutSection } from '../assets/lib/Animation';
+import React, { useEffect } from 'react';
+
 
 export default function About() {
+
+  useEffect(() => {
+    animateAboutSection();
+  }, []);
+
   return (
     <section id='about' className="about-us">
       <div className='left-section'>

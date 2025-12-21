@@ -1,7 +1,14 @@
 import clinicImg from '../assets/images/clinic.jpg'
 import DentalTools from '../assets/images/dental-tools-equipment.jpg'
+import { animateClinicSection } from '../assets/lib/Animation';
+import React, { useEffect } from 'react';
 
 export default function Clinic() {
+
+  useEffect(() => {
+    animateClinicSection();
+  }, []);
+
   return (
     <section id='clinic' className="our-clinic">
       <div className='clinic-info'>
@@ -11,8 +18,8 @@ export default function Clinic() {
         <button className="learn-more-btn">Learn More</button>
       </div>
       <div className='our-clinic-img'>
-        <img src={clinicImg} alt="Our clinic illustration" />
-        <img src={DentalTools} alt="Dental Tools Equipment" />
+        <img className='first-clinic-img' src={clinicImg} alt="Our clinic illustration" />
+        <img className='second-clinic-img' src={DentalTools} alt="Dental Tools Equipment" />
       </div>
     </section>
   )
