@@ -35,7 +35,7 @@ export function animateAboutSection() {
         tweenLength: true,
         speed: 50,
       },
-      duration: 2.5,
+      duration: 2,
       ease: "none",
       scrollTrigger: {
         trigger: element,
