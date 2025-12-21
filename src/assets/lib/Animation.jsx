@@ -52,7 +52,7 @@ export function animateAboutSection() {
     ".about-us-img",
     {
       opacity: 0,
-      x: 50,
+      x: '3vw',
     },
     {
       opacity: 1,
@@ -74,7 +74,7 @@ export function animateClinicSection() {
     ".first-clinic-img",
     {
       opacity: 0,
-      x: 50,
+      x: '3vw',
     },
     {
       opacity: 1,
@@ -94,7 +94,7 @@ export function animateClinicSection() {
     ".second-clinic-img",
     {
       opacity: 0,
-      x: 50,
+      x: '3vw',
     },
     {
       opacity: 1,
