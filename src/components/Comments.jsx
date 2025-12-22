@@ -73,7 +73,9 @@ export default function Comments() {
       </div>
 
       <div className="comments-grid">
-        <button onClick={prevComment} className="comments-btn">&lt;</button>
+        <button onClick={prevComment} className="comments-btn">
+          <img src="src/assets/images/left-arrow-icon.svg" alt="left-arrow-icon" />
+        </button>
 
 
         <div className="cards-wrapper">
@@ -101,7 +103,9 @@ export default function Comments() {
           ))}
         </div>
 
-        <button onClick={nextComment} className="comments-btn">&gt;</button>
+        <button onClick={nextComment} className="comments-btn">
+          <img src="src/assets/images/right-arrow-icon.svg" alt="right-arrow-icon" />
+        </button>
       </div>
     </section>
   )
