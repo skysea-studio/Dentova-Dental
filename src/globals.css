@@ -100,12 +100,16 @@ hr {
   opacity: 0.5;
 }
 
+.container {
+  overflow: hidden;
+}
+
 .map {
   width: 100%;
   height: 500px;
 }
 
-@media(width >= 1440px) {
+@media (width >= 1440px) {
   .form-map {
     display: flex;
     align-items: center;
@@ -116,8 +120,4 @@ hr {
   .map {
     height: 921px;
   }
-
 }
-
-
-
