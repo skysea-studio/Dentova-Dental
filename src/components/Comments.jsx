@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react"
 import userIcon from "../assets/icons/user.svg"
+import leftArrowIcon from "../assets/images/left-arrow-icon.svg"
+import rightArrowIcon from "../assets/images/right-arrow-icon.svg"
 
 export default function Comments() {
   const [comments, setComments] = useState([])
@@ -74,7 +76,7 @@ export default function Comments() {
 
       <div className="comments-grid">
         <button onClick={prevComment} className="comments-btn">
-          <img src="src/assets/images/left-arrow-icon.svg" alt="left-arrow-icon" />
+          <img src={leftArrowIcon} alt="left-arrow-icon" />
         </button>
 
 
@@ -104,7 +106,7 @@ export default function Comments() {
         </div>
 
         <button onClick={nextComment} className="comments-btn">
-          <img src="src/assets/images/right-arrow-icon.svg" alt="right-arrow-icon" />
+          <img src={rightArrowIcon} alt="right-arrow-icon" />
         </button>
       </div>
     </section>
